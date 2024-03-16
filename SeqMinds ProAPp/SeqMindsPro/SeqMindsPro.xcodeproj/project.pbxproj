@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		39F8801480F48F5D896C7D54 /* Pods_SeqMindsPro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C747037F24022B5584F183CB /* Pods_SeqMindsPro.framework */; };
+		611F128C2B9F643F00450997 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F128B2B9F643F00450997 /* AppDelegate.swift */; };
+		611F128E2B9F643F00450997 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F128D2B9F643F00450997 /* SceneDelegate.swift */; };
+		611F12902B9F643F00450997 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F128F2B9F643F00450997 /* ViewController.swift */; };
+		611F12932B9F643F00450997 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611F12912B9F643F00450997 /* Main.storyboard */; };
+		611F12952B9F644100450997 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 611F12942B9F644100450997 /* Assets.xcassets */; };
+		611F12982B9F644100450997 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611F12962B9F644100450997 /* LaunchScreen.storyboard */; };
+		611F12A52B9F644700450997 /* SidemenuVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F12A02B9F644700450997 /* SidemenuVC.swift */; };
+		611F12A62B9F644700450997 /* FeedbackVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F12A12B9F644700450997 /* FeedbackVC.swift */; };
+		611F12A72B9F644700450997 /* sidemenuTblCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F12A22B9F644700450997 /* sidemenuTblCell.swift */; };
+		611F12A82B9F644700450997 /* Abtsvc.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F12A32B9F644700450997 /* Abtsvc.swift */; };
+		611F12A92B9F644700450997 /* howto.swift in Sources */ = {isa = PBXBuildFile; fileRef = 611F12A42B9F644700450997 /* howto.swift */; };
+		61296AC32BA0B14500E3E557 /* Factor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296AC22BA0B14500E3E557 /* Factor.swift */; };
+		61296AC52BA0B14C00E3E557 /* Multiplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296AC42BA0B14C00E3E557 /* Multiplication.swift */; };
+		61296AC72BA0B1DC00E3E557 /* Crossmulti.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296AC62BA0B1DC00E3E557 /* Crossmulti.swift */; };
+		61296AC92BA0B1F200E3E557 /* Prime.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296AC82BA0B1F200E3E557 /* Prime.swift */; };
+		61296ACB2BA0B20000E3E557 /* Squareroot.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296ACA2BA0B20000E3E557 /* Squareroot.swift */; };
+		61296ACD2BA0B20B00E3E557 /* Cube.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296ACC2BA0B20B00E3E557 /* Cube.swift */; };
+		61296ACF2BA0B21400E3E557 /* LCM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61296ACE2BA0B21400E3E557 /* LCM.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4802C96127E70CAE985820BC /* Pods-SeqMindsPro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeqMindsPro.debug.xcconfig"; path = "Target Support Files/Pods-SeqMindsPro/Pods-SeqMindsPro.debug.xcconfig"; sourceTree = "<group>"; };
+		611F12882B9F643F00450997 /* SeqMindsPro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeqMindsPro.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		611F128B2B9F643F00450997 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		611F128D2B9F643F00450997 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		611F128F2B9F643F00450997 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		611F12922B9F643F00450997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		611F12942B9F644100450997 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		611F12972B9F644100450997 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		611F12992B9F644100450997 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		611F12A02B9F644700450997 /* SidemenuVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SidemenuVC.swift; sourceTree = "<group>"; };
+		611F12A12B9F644700450997 /* FeedbackVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedbackVC.swift; sourceTree = "<group>"; };
+		611F12A22B9F644700450997 /* sidemenuTblCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = sidemenuTblCell.swift; sourceTree = "<group>"; };
+		611F12A32B9F644700450997 /* Abtsvc.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Abtsvc.swift; sourceTree = "<group>"; };
+		611F12A42B9F644700450997 /* howto.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = howto.swift; sourceTree = "<group>"; };
+		61296AC22BA0B14500E3E557 /* Factor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Factor.swift; sourceTree = "<group>"; };
+		61296AC42BA0B14C00E3E557 /* Multiplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multiplication.swift; sourceTree = "<group>"; };
+		61296AC62BA0B1DC00E3E557 /* Crossmulti.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Crossmulti.swift; sourceTree = "<group>"; };
+		61296AC82BA0B1F200E3E557 /* Prime.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prime.swift; sourceTree = "<group>"; };
+		61296ACA2BA0B20000E3E557 /* Squareroot.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Squareroot.swift; sourceTree = "<group>"; };
+		61296ACC2BA0B20B00E3E557 /* Cube.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cube.swift; sourceTree = "<group>"; };
+		61296ACE2BA0B21400E3E557 /* LCM.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LCM.swift; sourceTree = "<group>"; };
+		C747037F24022B5584F183CB /* Pods_SeqMindsPro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SeqMindsPro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D44A6F09CBE73DD0890B4CE1 /* Pods-SeqMindsPro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SeqMindsPro.release.xcconfig"; path = "Target Support Files/Pods-SeqMindsPro/Pods-SeqMindsPro.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		611F12852B9F643F00450997 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				39F8801480F48F5D896C7D54 /* Pods_SeqMindsPro.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		611F127F2B9F643F00450997 = {
+			isa = PBXGroup;
+			children = (
+				611F128A2B9F643F00450997 /* SeqMindsPro */,
+				611F12892B9F643F00450997 /* Products */,
+				859E8545FD5E53BE4618E09B /* Pods */,
+				684E1DDC1588164A37A1CB59 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		611F12892B9F643F00450997 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				611F12882B9F643F00450997 /* SeqMindsPro.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		611F128A2B9F643F00450997 /* SeqMindsPro */ = {
+			isa = PBXGroup;
+			children = (
+				611F128B2B9F643F00450997 /* AppDelegate.swift */,
+				61296AC22BA0B14500E3E557 /* Factor.swift */,
+				61296AC42BA0B14C00E3E557 /* Multiplication.swift */,
+				61296AC62BA0B1DC00E3E557 /* Crossmulti.swift */,
+				61296AC82BA0B1F200E3E557 /* Prime.swift */,
+				61296ACA2BA0B20000E3E557 /* Squareroot.swift */,
+				61296ACC2BA0B20B00E3E557 /* Cube.swift */,
+				61296ACE2BA0B21400E3E557 /* LCM.swift */,
+				611F128D2B9F643F00450997 /* SceneDelegate.swift */,
+				611F128F2B9F643F00450997 /* ViewController.swift */,
+				611F129F2B9F644700450997 /* Sidemenuvc */,
+				611F12912B9F643F00450997 /* Main.storyboard */,
+				611F12942B9F644100450997 /* Assets.xcassets */,
+				611F12962B9F644100450997 /* LaunchScreen.storyboard */,
+				611F12992B9F644100450997 /* Info.plist */,
+			);
+			path = SeqMindsPro;
+			sourceTree = "<group>";
+		};
+		611F129F2B9F644700450997 /* Sidemenuvc */ = {
+			isa = PBXGroup;
+			children = (
+				611F12A02B9F644700450997 /* SidemenuVC.swift */,
+				611F12A12B9F644700450997 /* FeedbackVC.swift */,
+				611F12A22B9F644700450997 /* sidemenuTblCell.swift */,
+				611F12A32B9F644700450997 /* Abtsvc.swift */,
+				611F12A42B9F644700450997 /* howto.swift */,
+			);
+			path = Sidemenuvc;
+			sourceTree = "<group>";
+		};
+		684E1DDC1588164A37A1CB59 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C747037F24022B5584F183CB /* Pods_SeqMindsPro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		859E8545FD5E53BE4618E09B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4802C96127E70CAE985820BC /* Pods-SeqMindsPro.debug.xcconfig */,
+				D44A6F09CBE73DD0890B4CE1 /* Pods-SeqMindsPro.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		611F12872B9F643F00450997 /* SeqMindsPro */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 611F129C2B9F644100450997 /* Build configuration list for PBXNativeTarget "SeqMindsPro" */;
+			buildPhases = (
+				570851EA118F1551FF3985F8 /* [CP] Check Pods Manifest.lock */,
+				611F12842B9F643F00450997 /* Sources */,
+				611F12852B9F643F00450997 /* Frameworks */,
+				611F12862B9F643F00450997 /* Resources */,
+				46A0AB0A0BEA5C34742494E4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SeqMindsPro;
+			productName = SeqMindsPro;
+			productReference = 611F12882B9F643F00450997 /* SeqMindsPro.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		611F12802B9F643F00450997 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1410;
+				LastUpgradeCheck = 1410;
+				TargetAttributes = {
+					611F12872B9F643F00450997 = {
+						CreatedOnToolsVersion = 14.1;
+					};
+				};
+			};
+			buildConfigurationList = 611F12832B9F643F00450997 /* Build configuration list for PBXProject "SeqMindsPro" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 611F127F2B9F643F00450997;
+			productRefGroup = 611F12892B9F643F00450997 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				611F12872B9F643F00450997 /* SeqMindsPro */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		611F12862B9F643F00450997 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				611F12982B9F644100450997 /* LaunchScreen.storyboard in Resources */,
+				611F12952B9F644100450997 /* Assets.xcassets in Resources */,
+				611F12932B9F643F00450997 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		46A0AB0A0BEA5C34742494E4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeqMindsPro/Pods-SeqMindsPro-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-SeqMindsPro/Pods-SeqMindsPro-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-SeqMindsPro/Pods-SeqMindsPro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		570851EA118F1551FF3985F8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-SeqMindsPro-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		611F12842B9F643F00450997 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				61296AC72BA0B1DC00E3E557 /* Crossmulti.swift in Sources */,
+				611F12902B9F643F00450997 /* ViewController.swift in Sources */,
+				61296AC52BA0B14C00E3E557 /* Multiplication.swift in Sources */,
+				611F12A62B9F644700450997 /* FeedbackVC.swift in Sources */,
+				61296ACF2BA0B21400E3E557 /* LCM.swift in Sources */,
+				611F12A72B9F644700450997 /* sidemenuTblCell.swift in Sources */,
+				611F12A82B9F644700450997 /* Abtsvc.swift in Sources */,
+				611F128C2B9F643F00450997 /* AppDelegate.swift in Sources */,
+				61296AC92BA0B1F200E3E557 /* Prime.swift in Sources */,
+				611F12A52B9F644700450997 /* SidemenuVC.swift in Sources */,
+				611F128E2B9F643F00450997 /* SceneDelegate.swift in Sources */,
+				61296ACB2BA0B20000E3E557 /* Squareroot.swift in Sources */,
+				611F12A92B9F644700450997 /* howto.swift in Sources */,
+				61296ACD2BA0B20B00E3E557 /* Cube.swift in Sources */,
+				61296AC32BA0B14500E3E557 /* Factor.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		611F12912B9F643F00450997 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611F12922B9F643F00450997 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		611F12962B9F644100450997 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				611F12972B9F644100450997 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		611F129A2B9F644100450997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		611F129B2B9F644100450997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		611F129D2B9F644100450997 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4802C96127E70CAE985820BC /* Pods-SeqMindsPro.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeqMindsPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeqMindsPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject11.SeqMindsPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		611F129E2B9F644100450997 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D44A6F09CBE73DD0890B4CE1 /* Pods-SeqMindsPro.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = SeqMindsPro/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SeqMindsPro;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.firstproject11.SeqMindsPro;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		611F12832B9F643F00450997 /* Build configuration list for PBXProject "SeqMindsPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611F129A2B9F644100450997 /* Debug */,
+				611F129B2B9F644100450997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		611F129C2B9F644100450997 /* Build configuration list for PBXNativeTarget "SeqMindsPro" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				611F129D2B9F644100450997 /* Debug */,
+				611F129E2B9F644100450997 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 611F12802B9F643F00450997 /* Project object */;
+}
